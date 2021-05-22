@@ -163,7 +163,7 @@ def stable(request):
                         wPartner[w - N] = m
                         mFree[m] = True
                         mFree[m1] = False
-                i += 1
+                i-= 1
 
                 # End of Else
             # End of the for loop that goes
@@ -183,5 +183,6 @@ def stable(request):
             [0, 1, 2, 3], [0, 1, 2, 3]]
     stableMarriage(prefer)
     return render(request,'result.html')
+    #done
 
     
