@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Rooms{% endblock title %}
+{% block body %}
+<div class="container-fluid px-0 mb-3">
+<img src="https://source.unsplash.com/1200x400/?phone,contact" class="d-block w-100 mx-0"alt="...">
+</div>
+<div class="container mb-3 py-4" >
+<h2 class="text-center">Contact us</h2>
+<form method="post" action="/contact">
+{% csrf_token %}
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Name</label>
+  <input type="name" class="form-control" id="name" name="name" placeholder="Enter your name">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Phone no.</label>
+  <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter your phone-no">
+</div>
+<div class="mb-3">
+  <label for="Queries" class="form-label">Queries</label>
+  <textarea class="form-control" id="Queries" name="desc" rows="3"></textarea>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</div>
+{% endblock body  %}

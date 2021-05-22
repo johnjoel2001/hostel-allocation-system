@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Log in | </title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">
+  <script src="/static/admin/js/nav_sidebar.js" defer></script>
+
+<link rel="stylesheet" type="text/css" href="/static/admin/css/login.css">
+
+
+
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">
+    
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class=" login"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Login</a></h1>
+
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+    
+
+    <div class="main shifted" id="main">
+      
+        
+      
+      <div class="content">
+        
+          
+        
+        <!-- Content -->
+        <div id="content" class="colM">
+          
+          
+          
+
+
+
+
+<div id="content-main">
+
+
+
+<form method="post" id="login-form"><input type="hidden" name="csrfmiddlewaretoken" value="C2QW0Lt1VKLv2F7U4fxQItDDDpXCE5xOAyoIc7NGn1jMqJYc7yXrSP0VkdaSGzbL">
+  <div class="form-row">
+  {% csrf_token %}
+    
+    <label class="required" for="id_username">Username:</label> <input type="text" name="username" autofocus autocapitalize="none" autocomplete="username" maxlength="150" required id="username">
+  </div>
+  <div class="form-row">
+    
+    <label class="required" for="id_password">Password:</label> <input type="password" name="password" autocomplete="current-password" required id="password">
+    
+  </div>
+  
+  
+  <div class="submit-row">
+    <input type="submit" name="Login" value="Login">
+  </div>
+</form>
+
+</div>
+
+          
+          <br class="clear">
+        </div>
+        <!-- END Content -->
+        <div id="footer"></div>
+      </div>
+    </div>
+</div>
+<!-- END Container -->
+</body>
+</html>
