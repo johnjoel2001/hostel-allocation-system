@@ -40,5 +40,7 @@ This project simplifies the roommate matching process in hostels, ensuring stabi
 <b>Further Scope</b>
 
 <b>Real-time Matching:</b> Allowing for continuous updates to preferences.<br>
+
 <b>Enhanced Grouping:</b> Incorporating more factors beyond grades to refine the matching process.<br>
+
 <b>Mobile App Integration:</b> Expanding the project to mobile platforms for greater accessibility.
