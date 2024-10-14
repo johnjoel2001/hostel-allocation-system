@@ -1,4 +1,5 @@
-<b>Stable Roommate Matching in a Hostel using Gale-Shapley Algorithm <b>
+<b>Stable Roommate Matching in a Hostel using Gale-Shapley Algorithm </b>
+
 The main objective of this project is to find the most stable pairings of roommates within a hostel environment. The matching process divides the hostellers into two distinct groups:
 
 Group 1: Students with grades above 9.
