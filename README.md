@@ -9,16 +9,28 @@ Finding the right roommate can be challenging, especially in a hostel where pref
 <b>Objective</b>
 
 <b>Divide Students:</b> Group 1 includes students with grades above 9, while Group 2 includes students with grades below 9.<br>
+
 <b>Rank Preferences:</b> Each student ranks the opposite group members in order of preference.<br>
+
 <b>Achieve Stable Matching:</b> A match is considered stable if no two students prefer each other over their assigned roommates. The <b>Gale-Shapley algorithm</b> is used to ensure stable and fair matches.
+
 <b>Features</b>
+
 <b>Roommate Matching:</b> Efficiently pairs students into stable roommate pairs using the renowned Gale-Shapley algorithm.<br>
+
 <b>User-Friendly Interface:</b> Developed using Django to provide a smooth and interactive web experience.<br>
+
 <b>Preference Input:</b> Allows students to input and rank their preferences easily through the web interface.<br>
+
+
 <b>Automated Matching:</b> The system processes preferences and generates stable matches without manual intervention.
+
 <b>Technologies Used</b>
+
 <b>Django:</b> Web framework used for building the application.<br>
+
 <b>Gale-Shapley Algorithm:</b> The core algorithm used for stable matching.<br>
+
 <b>HTML/CSS/JavaScript:</b> For building the user interface.<br>
 
 <b>Motivation</b>
